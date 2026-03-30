@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "RequisitionManagement.API.Controllers.RequisitionsController",
+    "Method": "Create",
+    "RelativePath": "api/requisitions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RequisitionManagement.API.DTOs.CreateRequisitionDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "createdBy",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RequisitionManagement.API.Controllers.RequisitionsController",
+    "Method": "GetById",
+    "RelativePath": "api/requisitions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RequisitionManagement.API.Controllers.RequisitionsController",
+    "Method": "GetMy",
+    "RelativePath": "api/requisitions/my",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createdBy",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

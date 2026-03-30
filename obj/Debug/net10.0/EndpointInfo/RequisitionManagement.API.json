@@ -1,0 +1,126 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "RequisitionManagement.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/requisitions": {
+      "post": {
+        "tags": [
+          "Requisitions"
+        ],
+        "parameters": [
+          {
+            "name": "createdBy",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRequisitionDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRequisitionDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRequisitionDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/requisitions/my": {
+      "get": {
+        "tags": [
+          "Requisitions"
+        ],
+        "parameters": [
+          {
+            "name": "createdBy",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/requisitions/{id}": {
+      "get": {
+        "tags": [
+          "Requisitions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateRequisitionDto": {
+        "type": "object",
+        "properties": {
+          "department": {
+            "type": "string",
+            "nullable": true
+          },
+          "skillset": {
+            "type": "string",
+            "nullable": true
+          },
+          "experienceLevel": {
+            "type": "string",
+            "nullable": true
+          },
+          "numberOfPositions": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Requisitions"
+    }
+  ]
+}
