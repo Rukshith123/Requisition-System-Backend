@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\controllers\\requisitionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:controllers\\requisitionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\services\\requisitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:services\\requisitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\dtos\\createrequisitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:dtos\\createrequisitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\models\\approval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:models\\approval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\models\\requisition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:models\\requisition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\repositories\\requisitionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:repositories\\requisitionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\controllers\\recruitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:controllers\\recruitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405101801_AddNavPropertiesToApproval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260405101801_AddNavPropertiesToApproval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405072219_AddApproverNavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260405072219_AddApproverNavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405053035_AddLocationHireDateCustomerCommentsJd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260405053035_AddLocationHireDateCustomerCommentsJd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\migrations\\20260405045029_addupdatedattorequisition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:migrations\\20260405045029_addupdatedattorequisition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecruiterController.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Controllers\\RecruiterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecruiterController.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Controllers\\RecruiterController.cs",
+              "RelativeToolTip": "Controllers\\RecruiterController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T10:46:21.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260405101801_AddNavPropertiesToApproval.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405101801_AddNavPropertiesToApproval.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260405101801_AddNavPropertiesToApproval.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405101801_AddNavPropertiesToApproval.cs",
+              "RelativeToolTip": "Migrations\\20260405101801_AddNavPropertiesToApproval.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T10:18:01.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T10:04:07.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260405072219_AddApproverNavigation.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405072219_AddApproverNavigation.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260405072219_AddApproverNavigation.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405072219_AddApproverNavigation.cs",
+              "RelativeToolTip": "Migrations\\20260405072219_AddApproverNavigation.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T07:22:20.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Approval.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Models\\Approval.cs",
+              "RelativeDocumentMoniker": "Models\\Approval.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Models\\Approval.cs",
+              "RelativeToolTip": "Models\\Approval.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:57:36.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApprovalsController.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Controllers\\ApprovalsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApprovalsController.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Controllers\\ApprovalsController.cs",
+              "RelativeToolTip": "Controllers\\ApprovalsController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAgwMkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T06:57:41.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260405053035_AddLocationHireDateCustomerCommentsJd.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405053035_AddLocationHireDateCustomerCommentsJd.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260405053035_AddLocationHireDateCustomerCommentsJd.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405053035_AddLocationHireDateCustomerCommentsJd.cs",
+              "RelativeToolTip": "Migrations\\20260405053035_AddLocationHireDateCustomerCommentsJd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T05:30:35.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateRequisitionDto.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\DTOs\\CreateRequisitionDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateRequisitionDto.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\DTOs\\CreateRequisitionDto.cs",
+              "RelativeToolTip": "DTOs\\CreateRequisitionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T05:27:46.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260405045029_AddUpdatedAtToRequisition.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405045029_AddUpdatedAtToRequisition.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260405045029_AddUpdatedAtToRequisition.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Migrations\\20260405045029_AddUpdatedAtToRequisition.cs",
+              "RelativeToolTip": "Migrations\\20260405045029_AddUpdatedAtToRequisition.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:50:30.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Requisition.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Models\\Requisition.cs",
+              "RelativeDocumentMoniker": "Models\\Requisition.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Models\\Requisition.cs",
+              "RelativeToolTip": "Models\\Requisition.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:40:02.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequisitionService.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Services\\RequisitionService.cs",
+              "RelativeDocumentMoniker": "Services\\RequisitionService.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Services\\RequisitionService.cs",
+              "RelativeToolTip": "Services\\RequisitionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:35:16.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequisitionsController.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Controllers\\RequisitionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RequisitionsController.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Controllers\\RequisitionsController.cs",
+              "RelativeToolTip": "Controllers\\RequisitionsController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAkwG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:34:45.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequisitionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Repositories\\RequisitionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RequisitionRepository.cs",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Repositories\\RequisitionRepository.cs",
+              "RelativeToolTip": "Repositories\\RequisitionRepository.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAUwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:10:38.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T06:52:47.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T01:51:34.04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

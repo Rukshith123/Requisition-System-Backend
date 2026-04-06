@@ -25,6 +25,12 @@ namespace RequisitionManagement.API.Repositories
             return await _context.Users.FindAsync(userId);
         }
 
+        public async Task<User?> GetUserByUsernameAsync(string username)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(u => u.Username == username);
+        }
+
         public async Task<List<Requisition>> GetByCreatorAsync(int createdBy)
         {
             return await _context.Requisitions
@@ -33,7 +39,7 @@ namespace RequisitionManagement.API.Repositories
                 .ToListAsync();
         }
 
-        public async Task<Requisition> GetByIdAsync(int id)
+        public async Task<Requisition?> GetByIdAsync(int id)
         {
             return await _context.Requisitions
                 .Include(r => r.Creator)
@@ -48,10 +54,28 @@ namespace RequisitionManagement.API.Repositories
                 .ToListAsync();
         }
 
+        public async Task<List<Requisition>> GetCancelledAsync()
+        {
+            return await _context.Requisitions
+                .Include(r => r.Creator)
+                .Where(r => r.Status == "Cancelled")
+                .ToListAsync();
+        }
+
         public async Task UpdateAsync(Requisition requisition)
         {
             _context.Requisitions.Update(requisition);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var requisition = await _context.Requisitions.FindAsync(id);
+            if (requisition != null)
+            {
+                _context.Requisitions.Remove(requisition);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task AddApprovalAsync(Approval approval)

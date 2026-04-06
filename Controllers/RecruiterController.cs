@@ -15,19 +15,17 @@ namespace RequisitionManagement.API.Controllers
             _context = context;
         }
 
-        // Recruiter views all L3Approved requisitions
         [HttpGet("requisitions")]
         public async Task<IActionResult> GetApprovedRequisitions()
         {
             var requisitions = await _context.Requisitions
-                .Where(r => r.Status == "L3Approved")
+                .Include(r => r.Creator)
+                .Where(r => r.Status == "BAApproved")
                 .ToListAsync();
 
             return Ok(requisitions);
         }
 
-        
-        // Recruiter views all closed requisitions
         [HttpGet("requisitions/closed")]
         public async Task<IActionResult> GetClosedRequisitions()
         {
@@ -39,15 +37,14 @@ namespace RequisitionManagement.API.Controllers
             return Ok(new { totalClosed = requisitions.Count, requisitions = requisitions });
         }
 
-        // Recruiter closes a requisition
         [HttpPost("requisitions/{id}/close")]
         public async Task<IActionResult> CloseRequisition(int id)
         {
             var requisition = await _context.Requisitions.FindAsync(id);
             if (requisition == null) return NotFound();
 
-            if (requisition.Status != "L3Approved")
-                return BadRequest(new { message = "Only L3Approved requisitions can be closed" });
+            if (requisition.Status != "BAApproved")
+                return BadRequest(new { message = "Only BAApproved requisitions can be closed" });
 
             requisition.Status = "Closed";
             _context.Requisitions.Update(requisition);

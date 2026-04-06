@@ -17,9 +17,7 @@ namespace RequisitionManagement.API.Services
         {
             var creator = await _repository.GetUserByIdAsync(createdBy);
             if (creator == null)
-            {
                 throw new ArgumentException($"Invalid createdBy user id: {createdBy}");
-            }
 
             var requisition = new Requisition
             {
@@ -28,6 +26,11 @@ namespace RequisitionManagement.API.Services
                 Skillset = dto.Skillset,
                 ExperienceLevel = dto.ExperienceLevel,
                 NumberOfPositions = dto.NumberOfPositions,
+                Location = dto.Location,
+                HireByDate = dto.HireByDate,
+                CustomerName = dto.CustomerName,
+                Comments = dto.Comments,
+                JdContent = dto.JdContent,
                 CreatedBy = createdBy,
                 Creator = creator,
                 Status = "Pending",
@@ -37,14 +40,47 @@ namespace RequisitionManagement.API.Services
             return await _repository.CreateAsync(requisition);
         }
 
-        public async Task<List<Requisition>> GetMyRequisitionsAsync(int createdBy)
+        public async Task<List<Requisition>> GetMyRequisitionsAsync(string username)
         {
-            return await _repository.GetByCreatorAsync(createdBy);
+            var user = await _repository.GetUserByUsernameAsync(username);
+            if (user == null)
+                return new List<Requisition>();
+
+            return await _repository.GetByCreatorAsync(user.Id);
         }
 
-        public async Task<Requisition> GetRequisitionByIdAsync(int id)
+        public async Task<Requisition?> GetRequisitionByIdAsync(int id)
         {
             return await _repository.GetByIdAsync(id);
         }
+
+        public async Task<Requisition?> CancelRequisitionAsync(int id)
+        {
+            var requisition = await _repository.GetByIdAsync(id);
+            if (requisition == null)
+                throw new ArgumentException($"Requisition {id} not found.");
+
+            requisition.Status = "Cancelled";
+            requisition.UpdatedAt = DateTime.Now;
+            await _repository.UpdateAsync(requisition);
+            return requisition;
+        }
+
+        public async Task<List<Requisition>> GetCancelledRequisitionsAsync()
+        {
+            return await _repository.GetCancelledAsync();
+        }
+
+        public async Task DeleteRequisitionAsync(int id)
+        {
+            var requisition = await _repository.GetByIdAsync(id);
+            if (requisition == null)
+                throw new ArgumentException($"Requisition {id} not found.");
+
+            await _repository.DeleteAsync(id);
+        }
+
+
+        
     }
 }

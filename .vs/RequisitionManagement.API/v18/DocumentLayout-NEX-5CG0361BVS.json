@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|c:\\users\\00325099\\onedrive - nexer ab\\desktop\\sumith-backend\\requisition-system-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DAC6F44-5141-0819-298F-50FBD688619D}|RequisitionManagement.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T06:52:47.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\00325099\\OneDrive - Nexer AB\\Desktop\\Sumith-Backend\\Requisition-System-Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T01:51:34.04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
